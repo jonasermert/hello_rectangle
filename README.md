@@ -1,6 +1,6 @@
 # hello_rectangle
 
-A new Flutter project.
+First Flutter project of the Udacity FLutter Frameowrk Course‚
 
 ## Getting Started
 
