@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
+const _padding = EdgeInsets.all(16.0);
+
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Hello Rectangle'),
+          title: const Text('Hello Rectangle'),
         ),
         body: HelloRectangle(),
       ),
@@ -22,7 +24,8 @@ class HelloRectangle extends StatelessWidget {
         color: Colors.greenAccent,
         height: 400.0,
         width: 300.0,
-        child: Center(
+        child: const Padding(
+          padding: _padding,
           child: Text(
             'Hello',
             style: TextStyle(fontSize: 40.0),
